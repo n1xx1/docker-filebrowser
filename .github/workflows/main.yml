@@ -35,4 +35,3 @@ jobs:
           push: true
           tags: |
             registry.n1xx1.me/${{ github.repository }}:latest
-            registry.n1xx1.me/${{ github.repository }}:${{ steps.vars.outputs.sha_short }}
